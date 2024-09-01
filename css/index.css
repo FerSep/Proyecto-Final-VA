@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: white;
+}
+.texto{
+    margin: 0;
+    border: 2px solid;
+    border-color: blueviolet;
+    display: inline-block;
+}
