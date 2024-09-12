@@ -1,0 +1,38 @@
+.header{
+    box-shadow: none;
+}
+.menuagent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-inline: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.botones{
+    width: 40px;
+    height: 100%;
+    border-radius: 15px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.agente{
+    width: 400px;
+    height: 500px;
+    border: 1px solid;
+}
+.descripcion{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    border: 1px solid;
+    border-color:blueviolet ;
+}

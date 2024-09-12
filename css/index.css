@@ -1,13 +1,15 @@
 
-body{
+.cuerpo{
+    display: block;
     margin: auto;
     height: 100%;
     width: 100%;
     color: white;
     background-color: rgb(16, 16, 16);
     padding: 0;
+    font-style: oblique;
 }
-header{
+.header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,12 +31,13 @@ header{
 .titulo{
     font-family: cursive;
     font-size: 40px;
-    
+    font-weight: bold;
 }
 .menucaja{
     margin-top: 16px;
-    margin-inline: auto;
+    margin-inline: 10px;
     padding: 0;
+    border-radius: 25px;
    
 }
 .menu{
@@ -51,6 +54,7 @@ header{
     padding: 14px;
     width: 85px;
     height: 85px;
+    cursor: pointer;
 }
 .menuboton:hover{
     filter: drop-shadow(0 0 6px rgb(255, 255, 255));
@@ -69,6 +73,10 @@ header{
     flex-shrink: 1;
     flex-grow: 1;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .agentes{
     display: flex;
     flex-direction: column;
@@ -77,10 +85,11 @@ header{
     height: 160px;
     margin-top: 20px;
     margin-inline: 10px;
-    margin-bottom: 16px;
+    margin-bottom: 26px;
     padding: 18px;
     border-radius: 10%;
     box-shadow: inset 0 0 20px 8px rgba(0, 66, 87, 0.0);
+    transition: ease-in  0.2s;
 }
 .agentes p{
     margin-top: 16px;
@@ -89,8 +98,9 @@ header{
 }
 
 .agentes:hover{
-    scale: 112%;
-    transition: linear 0.3s;
+    scale: 110%;
+    transition-duration: 0.5s;
+    
 }
 .principal{
     box-sizing: border-box;
@@ -99,4 +109,14 @@ header{
 }
 .menucaja{
     box-shadow: 0 0 20px 0.5px rgb(105, 105, 105);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 50px;
+    width: auto;
+    border-radius: 5px;
+    color: rgba(145, 0, 0, 0.788);
+    box-shadow:  0 0 20px 2px rgb(150, 150, 150);
 }
